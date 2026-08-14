@@ -291,8 +291,137 @@ transition: fade-out
 </div>
 
 ---
-title: "Assessment Criteria"
+title: "Practical Work"
+layout: center
+transition: fade-out
+---
+
+# Practical Work
+
+---
+title: "Work Description"
 layout: default
 transition: fade-out
 ---
+
+<v-clicks>
+
+### Objective of the Practical Work
+In teams of 12-14 students, design the Piping and Instrumentation Diagrams (P&IDs) for an industrial auxiliary services plant and create its 3D model (equipment, piping, and structure) in AutoCAD Plant 3D, based on the process context, the Block Diagram (BFD), and the sizing data provided in this document.
+
+Each student will be responsible for one of the six subsystems into which the plant is divided, developing their own P&ID, line list, and instrumentation list, and modeling their area in 3D. Finally, the team must integrate the six models into a single, coherent plant.
+
+### Competencies to be Developed
+- Interpretation of a BFD and process data to generate a P&ID.
+- Selection and basic sizing of equipment, lines, and instrumentation.
+- Application of a consistent identification convention (tags) across disciplines. 
+- 3D modeling of industrial plants: equipment, piping, and structural elements (stairs, railings, platforms).
+- Collaborative work and integration of partial models into a single project.
+
+</v-clicks>
+
+---
+title: "Tool Description"
+layout: default
+transition: fade-out
+---
+
+### Available Tools
+
+- Knowledge of Projects, Materials, Fluids, Thermodynamics, etc.
+- AutoCAD Plant 3D.
+- UPM Virtual Desktops connected to Microsoft OneDrive.
+- Microsoft Copilot Chat for institutional support LLMs.
+
+
+---
+title: "Case Description"
+layout: default
+transition: fade-out
+---
+
+<div style="font-size:0.7em;">
+
+### General Case Description
+The plant subject to this internship is an auxiliary services (utilities) facility that supplies a main industrial plant (not included in the scope of this internship) with cooling water, low/medium pressure steam, compressed air, and fire protection. The process is continuous.
+
+The facility is organized into six interconnected subsystems, which are also connected to the main plant (the final consumer of the utilities). The equipment is distributed across different levels: most of it at ground level (+0.00 m), and several pieces of equipment and instruments on elevated platforms (between +1.50 m and +4.00 m) that require access stairs and perimeter railings. This must be reflected in both the P&ID (elevations/notes) and the 3D model (access structure).
+
+### General Design Conditions
+
+<div class="compact-list">
+
+| **Parameter** | **Value** |
+| --- | --- |
+| Location | Generic industrial plant, temperate climate |
+| Design ambient temperature | 5 °C (min.) / 35 °C (max.) |
+| Atmospheric pressure | 1,013 bar(a) |
+| Available raw water Well/external intake | raw quality (variable turbidity) |
+| Electrical supply | 400 V / 50 Hz, from plant substation |
+| Natural gas External supply network | delivery pressure 2 bar(g) |
+| Operating regime Continuous | 24 h / 350 days-year |
+
+</div>
+</div>
+
+---
+title: "Equipment Organization & Scope"
+layout: default
+transition: fade-out
+---
+
+### Schema
+
+The plant is divided into 6 subsystems. Each pair of students develops the P&ID, line list, instrumentation list, and 3D model of their subsystem, following the process data from Section 5 and the tagging convention from Section 6. The remaining students will integrate the complete set and compile the technical report with the justification for the design.
+
+<div class="compact-list">
+
+| **Subsystem** | **Key Elements** |
+| --- | --- |
+| Raw Water Intake and Pumping | Intake tank, pumps, self-cleaning filter |
+| Cooling Water | Cooling tower, pumps, heat exchanger, surge tank (platform +4.00 m) |
+| Steam Generation (Boiler Room) | Condensate tank, pumps, deaerator (platform +3.50 m), boiler |
+| Compressed Air | Compressors, dryer, surge tanks (skid +1.50 m) |
+| Chemical Dosing | Reagent tanks, dosing pumps, static mixer |
+| Fire Protection System and Main Supply | Reserve tank, pumps (main/jockey/diesel), manifold (platform +4.00 m) |
+
+</div>
+
+---
+title: "Equipment Organization & Scope"
+layout: default
+transition: fade-out
+---
+
+### Deliverables per subsystem (individual):
+- Subsystem P&ID, with equipment, line, and instrument tags.
+- Line list and instrument index. 
+- 3D model in Plant 3D: equipment, piping, and access structure (stairs/railings where applicable).
+
+<br>
+
+### Final deliverable (complete equipment)
+- Integration of the 6 models into a single Plant 3D project.
+- General plant P&ID (assembled from the 6 individual P&IDs).
+- Brief technical report of the integrated project.
+
+<br>
+
+### Student DataPack
+
+<div class="download-card">
+  <h4>PDF File</h4>
+  <p>Student Pack.</p>
+  <a href="/data/StudentPack.pdf">
+    📕 Download Data Package
+  </a>
+</div>
+
+---
+title: "Tentative Layout"
+layout: center
+transition: fade-out
+---
+
+<img src="/data/layout-general.jpg" alt="Layout" style="width:620px" />
 

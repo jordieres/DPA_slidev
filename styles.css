@@ -43,6 +43,8 @@
 .slidev-layout h3 {
   color: #102a43;
   font-weight: 600;
+  margin-top: 0.2rem;
+  margin-bottom: 0;
 }
 
 /* Texto normal */
@@ -50,6 +52,8 @@
 .slidev-layout p,
 .slidev-layout li {
   color: #243b53;
+  margin-top: 0.1rem;
+  margin-bottom: 0;
 }
 
 /* Notas y referencias */
@@ -72,7 +76,7 @@
 /* Espaciados verticales */
 
 .vspace-sm {
-  height: 0.5rem;
+  height: 0.4rem;
 }
 
 .vspace-md {
