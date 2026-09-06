@@ -1,28 +1,31 @@
 <script setup>
-import { computed } from 'vue'
-import { useSlideContext } from '@slidev/client'
-
-const slide = useSlideContext()
-
-const title = computed(() =>
-  slide.$frontmatter?.title || ''
-)
+  import { useSlideContext } from '@slidev/client'
+  const slide = useSlideContext()
 </script>
 
 <template>
-  <div class="slidev-layout default">
+  <div class="slidev-layout two-cols">
+
     <div class="top-banner">
       <img src="/images/upm-header.png">
       <div class="banner-title">
-        {{ slide.$frontmatter.title }}
+        {{ slide.$frontmatter?.title }}
       </div>
     </div>
 
-    <div class="default-content">
-      <slot />
+    <div class="two-cols-content">
+      <div class="col-left">
+        <slot name="left" />
+      </div>
+
+      <div class="col-right">
+        <slot name="right" />
+      </div>
     </div>
+
   </div>
 </template>
+
 
 <style>
 
@@ -67,10 +70,28 @@ const title = computed(() =>
   line-height: 1.2;
 }
 
-.default-content {
-  padding-top:35px;
-  padding-left:5px;
-  padding-right:5px;
+.two-cols-content{
+  width: 100%;
+  display:grid;
+  grid-template-columns: 55% 45%;
+  gap:40px;
+
+  padding-top:20px;
+  padding-left:40px;
+  padding-right:40px;
+}
+
+.col-left{
+  min-width:0;
+}
+
+.col-right{
+  min-width:0;
+}
+
+.slidev-slide-content{
+  max-width:none !important;
 }
 
 </style>
+

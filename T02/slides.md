@@ -24,7 +24,7 @@ duration: 35min
 .slide-image-wide { display: block; margin: .4rem auto 0; max-height: 410px; max-width: 92%; width: auto; }
 </style>
 
-# DPA Discussion
+# T02 DPA Discussion
 
 ## Project Life Cycle
 
@@ -60,19 +60,19 @@ transition: fade-out
 
 - Can you distinguish between the following concepts?
 
-  - <span v-click>Project Life Cycle</span>
-  - <span v-click>Project Methodology</span>
-  - <span v-click>Project Management Life Cycle</span>
-  - <span v-click>Project Management Methodology</span>
+  - <span v-click="1">Project Life Cycle</span>
+  - <span v-click="1">Project Methodology</span>
+  - <span v-click="1">Project Management Life Cycle</span>
+  - <span v-click="1">Project Management Methodology</span>
 
-- <span v-click>Are some of them the same? Why?</span>
+- <span v-click="2">Are some of them the same? Why?</span>
 
-- <span v-click>Think of one project and distinguish between:</span>
+- <span v-click="3">Think of one project and distinguish between:</span>
 
-  - <span v-click>The project</span>
-  - <span v-click>The project management</span>
-  - <span v-click>The project products</span>
-  - <span v-click>The business value</span>
+  - <span v-click="4">The project</span>
+  - <span v-click="4">The project management</span>
+  - <span v-click="4">The project products</span>
+  - <span v-click="4">The business value</span>
 
 </div>
 
@@ -82,11 +82,11 @@ transition: fade-out
 
 <div class="discussion-list">
 
-- <span v-click>Why are PM methodologies needed? Can you give some examples?</span>
-- <span v-click>Are there other fields where methodologies are required or appreciated?</span>
-- <span v-click>As a PM, can I use any methodology for any type of project?</span>
-- <span v-click>Do you remember some types of projects?</span>
-- <span v-click>Do you remember some project methodologies?</span>
+- <span v-click="5">Why are PM methodologies needed? Can you give some examples?</span>
+- <span v-click="6">Are there other fields where methodologies are required or appreciated?</span>
+- <span v-click="7">As a PM, can I use any methodology for any type of project?</span>
+- <span v-click="8">Do you remember some types of projects?</span>
+- <span v-click="9">Do you remember some project methodologies?</span>
 
 </div>
 
@@ -137,8 +137,8 @@ transition: fade-out
 
 <div class="discussion-list">
 
-- <span v-click>How do you interpret the need for project governance?</span>
-- <span v-click><img src="/images/project-context.png" class="slide-image" style="max-height: 405px" alt="Project governance"></span>
+- <span v-click="1">How do you interpret the need for project governance?</span>
+- <span v-click="2"><img src="/images/project-context.png" class="slide-image" style="max-height: 405px" alt="Project governance"></span>
 
 </div>
 
@@ -150,15 +150,15 @@ transition: fade-out
 
 <div class="discussion-list">
 
-- <span v-click>Can you arrange the following concepts hierarchically and show their interrelationships?</span>
+- <span v-click="3">Can you arrange the following concepts hierarchically and show their interrelationships?</span>
 <div style="margin-left:40px;">
 
-  - <span v-click>Strategic Planning</span>
-  - <span v-click>Operations</span>
-  - <span v-click>Portfolio Management</span>
-  - <span v-click>Program and Project Management</span>
+  - <span v-click="4">Strategic Planning</span>
+  - <span v-click="4">Operations</span>
+  - <span v-click="4">Portfolio Management</span>
+  - <span v-click="4">Program and Project Management</span>
 </div>
-- <span v-click><img src="/images/project-strategy.png" class="slide-image-wide" style="max-height: 290px" alt="Organizational context for projects"></span>
+- <span v-click="5"><img src="/images/project-strategy.png" class="slide-image-wide" style="max-height: 290px" alt="Organizational context for projects"></span>
 
 </div>
 </div>
