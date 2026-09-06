@@ -1,5 +1,5 @@
 <script setup>
-import { computed } from 'vue'
+import { computed, onMounted } from 'vue'
 import { useSlideContext } from '@slidev/client'
 
 const slide = useSlideContext()
@@ -7,6 +7,7 @@ const slide = useSlideContext()
 const title = computed(() =>
   slide.$frontmatter?.title || ''
 )
+
 </script>
 
 <template>
@@ -66,9 +67,13 @@ const title = computed(() =>
 }
 
 .default-content {
-  padding-top:80px;
-  padding-left:40px;
-  padding-right:40px;
+  padding-top:40px;
+  padding-left:0px;
+  padding-right:0px;
 }
 
 </style>
+
+
+
+

@@ -105,15 +105,31 @@ The Advanced Project Management course offers students different learning modali
 - a research profile and 
 - a practical or professional profile. 
 </div>
+
+<v-clicks>
 <div class="compact-list">
+
 Students are asked to select their preferred track during the first week of the course, and if no choice is made, they are automatically assigned to the practical track. The practical modality places a strong emphasis on the real-world dimension of managing a project team. In this track, students focus on the comprehensive management of an engineering team, taking responsibility for critical project areas such as scope definition, effort estimation, risk management, configuration management, and documentation. To simulate a genuine professional environment, project management teams may be assigned to manage a group of undergraduate students working on a project, or they might handle auditing processes for other ongoing teams.
 </div>
+</v-clicks>
+
+---
+title: DPA Course Presentation
+layout: default
+transition: fade-out
+background: ./images/Designer.png
+backgroundSize: cover
+---
 
 ### Practical Modality
 
 <div class="compact-list">
+
 Regarding how the practical modality functions in terms of effort, the course demands significant daily tracking and continuous involvement. The methodology is heavily driven by a **flipped classroom** approach, meaning that the theoretical learning of concepts and tools is completed asynchronously and individually by each student outside of standard class hours. Synchronous sessions are then dedicated to collaborative reviewing concepts rather than traditional lectures. These synchronous classes involve analyzing the progress of the practical cases, engaging in gamification activities to test the knowledge acquired during individual study, and resolving specific questions. Furthermore, teams working on the practical case are required to maintain a high level of continuous effort by publishing a weekly professional summary on a blog, detailing their activities, problems encountered, and achievements.
-The grading structure for this continuous evaluation modality reflects the balance between individual theoretical understanding and collaborative practical application. The evaluation is composed of individual knowledge components, which account for fifty-five percent of the final grade, and practical group activities, which make up the remaining forty-five percent. The individual assessment includes gamification questions, theoretical questions directly linked to the flipped classroom method, and contributions to management deliverables. Meanwhile, the forty-five percent dedicated to the practical work evaluates the continuous project management tasks, the final document, and the visual presentation. It is important to note that the practical group work cannot be retaken in extraordinary examination periods because it is developed continuously within real-world contexts and team dynamics.
+The grading structure for this continuous evaluation modality reflects the balance between individual theoretical understanding and collaborative practical application. The evaluation is composed of individual knowledge components, which account for **55%** of the final grade, and practical group activities, which make up the remaining **45%**. 
+
+The individual assessment includes gamification questions, theoretical questions directly linked to the flipped classroom method, and contributions to management deliverables. Meanwhile, the 45% dedicated to the practical work evaluates the continuous project management tasks, the final document, and the visual presentation. 
+
 </div>
 
 ---
@@ -135,6 +151,7 @@ backgroundSize: cover
 - Choose between: Managing an <strong>engineering project</strong> or Conducting research activities on project management.
 - ⚠️ Then, go to the course and select your Modality *when not the practical one*.
 - 🚀 There will be five teams in competition. **Teams will be built by the advisor**. They will be on purpose different from MwAI course. Please, register yourself asap.
+- 🛑 It is important to note that the practical group work cannot be retaken in extraordinary examination periods because it is developed continuously within real-world contexts and team dynamics.
 </v-clicks>
 
 ---
@@ -176,13 +193,20 @@ transition: fade-out
 
 </div>
 
+<style>
+.practice-list.compact {
+  font-size: .65em;
+  line-height: 1.0;
+}
+</style>
+
 ---
 title: "About the Project Itself"
 layout: default
 transition: fade-out
 ---
 
-<div class="practice-list compact">
+<div class=".practice-list.compact">
 
 - <span v-click>The proposed scope is fixed. If you have an alternative proposal, submit it for consideration.</span>
 - <span v-click>The project must be related to the <strong>Sustainable Development Goals (SDGs)</strong>.</span>
@@ -196,8 +220,8 @@ transition: fade-out
 <v-clicks>
 <div style="display:flex;justify-content:center;padding-top:14px">
   <iframe
-    width="533"
-    height="300"
+    width="500"
+    height="280"
     src="https://www.youtube.com/embed/BM9uyrYZJts"
     title="The EELISA initiative"
     frameborder="0"
@@ -245,7 +269,7 @@ layout: default
 transition: fade-out
 ---
 
-<div class="practice-list compact">
+<div class="practice-list.compact">
 
 - <span v-click>Theory provides context for the decisions you need to make.</span>
 - <span v-click><strong>Theory is not the core of this course, but it's still relevant.</strong></span>
@@ -259,7 +283,7 @@ transition: fade-out
 <div class="practice-list">
 
 - <span v-click>A <strong>flipped classroom</strong> does not mean that you are alone. However, you must work through the concepts <strong>before class</strong>.</span>
-- <span v-click>Use the <strong>course forum</strong> to raise your questions. Remember: <strong>participation is required</strong>.</span>
+- <span v-click>Use the <strong>course forum</strong> to raise your questions. Remember: <strong>participation is rewarded</strong>.</span>
 - <span v-click>You are encouraged to answer your classmates whenever you can; otherwise, the instructor will respond. This participation contributes to your score.</span>
 - <span v-click>Learning is valuable when it enables better products or decisions. <strong>Stay focused on this purpose.</strong></span>
 - <span v-click>Your concepts and analyses will be tested in practice.</span>
@@ -267,6 +291,14 @@ transition: fade-out
 - <span v-click>Learning happens both in and outside class. Use class time to clarify doubts and discuss cases.</span>
 
 </div>
+
+<style>
+  .practice-list.compact {
+  font-size: .65em;
+  line-height: 1.0;
+}
+</style>
+
 
 ---
 title: "Assessment Criteria"
@@ -276,19 +308,34 @@ transition: fade-out
 
 <div class="practice-list compact">
 
-1. <span v-click>Quality is related to the <strong>complete and consistent set</strong> of project deliverables, including <strong>all</strong> required ones.</span>
-2. <span v-click>Dissemination.</span>
-3. <span v-click>Communication management.</span>
-4. <span v-click>Project control and team building.</span>
-5. <span v-click><strong>Stakeholder satisfaction.</strong></span>
-6. <span v-click>The average of the most successful 85% of theory quizzes, provided that they are properly completed <strong>by the entire team</strong>.</span>
-7. <span v-click>Participation in forum questions and answers.</span>
-8. <span v-click>You are part of the evaluation committee for the Engineering Team as well (You must insert the email of the member and score their work).</span>
-9. <span v-click>The Engineering Team will also assess your steering and management work.</span>
-10. <span v-click>The quality of their deliverables will also affect your score.</span>
-11. <span v-click>Traceability for **who did what when** is a must.</span>
+<div class="blue-item">1. <span v-click>Quality is related to the <strong>complete and consistent set</strong> of project deliverables, including <strong>all</strong> required ones.</span></div>
+
+<div class="blue-item">2. <span v-click>Dissemination.</span></div>
+
+<div class="blue-item">3. <span v-click>Communication management.</span></div>
+
+<div class="blue-item">4. <span v-click>Project control and team building.</span></div>
+
+<div class="blue-item">5. <span v-click>The quality of their deliverables will also affect your score.</span></div>
+
+<div class="blue-item">6. <span v-click>Traceability for <strong>who did what when</strong> is a must.</span></div>
+
+<div class="blue-item">7. <span v-click><strong>Stakeholder satisfaction.</strong></span></div>
+
+<div class="green-item section-break">
+
+<div class="green-item">8. <span v-click>The average of the most successful 85% of theory quizzes, provided that they are properly completed <strong>by the entire team</strong>.</span></div>
 
 </div>
+
+<div class="green-item">9. <span v-click>Participation in forum questions and answers.</span></div>
+
+<div class="green-item">10. <span v-click>You are part of the evaluation committee for the Engineering Team as well (You must insert the email of the member and score their work).</span></div>
+
+<div class="green-item">11. <span v-click>The Engineering Team will also assess your steering and management work.</span></div>
+
+</div>
+
 
 ---
 title: "Practical Work"
@@ -309,7 +356,7 @@ transition: fade-out
 ### Objective of the Practical Work
 In teams of 12-14 students, design the Piping and Instrumentation Diagrams (P&IDs) for an industrial auxiliary services plant and create its 3D model (equipment, piping, and structure) in AutoCAD Plant 3D, based on the process context, the Block Diagram (BFD), and the sizing data provided in this document.
 
-Each student will be responsible for one of the six subsystems into which the plant is divided, developing their own P&ID, line list, and instrumentation list, and modeling their area in 3D. Finally, the team must integrate the six models into a single, coherent plant.
+Each couple of students will be responsible for one of the six subsystems into which the plant is divided, developing their own P&ID, line list, and instrumentation list, and modeling their area in 3D (calculation + 3D developping). Finally, the team must integrate the six models into a single, coherent plant.
 
 ### Competencies to be Developed
 - Interpretation of a BFD and process data to generate a P&ID.
@@ -340,14 +387,15 @@ layout: default
 transition: fade-out
 ---
 
-<div style="font-size:0.7em;">
+<div style="font-size:0.8em;">
 
 ### General Case Description
-The plant subject to this internship is an auxiliary services (utilities) facility that supplies a main industrial plant (not included in the scope of this internship) with cooling water, low/medium pressure steam, compressed air, and fire protection. The process is continuous.
+The plant subject to this practical work is an auxiliary services (utilities) facility that supplies a main industrial plant (not included in the scope of our work) with cooling water, low/medium pressure steam, compressed air, and fire protection. The process is continuous.
 
-The facility is organized into six interconnected subsystems, which are also connected to the main plant (the final consumer of the utilities). The equipment is distributed across different levels: most of it at ground level (+0.00 m), and several pieces of equipment and instruments on elevated platforms (between +1.50 m and +4.00 m) that require access stairs and perimeter railings. This must be reflected in both the P&ID (elevations/notes) and the 3D model (access structure).
+The facility is organized into six interconnected subsystems, which are also connected to the main plant (the final consumer of the utilities). The equipment is distributed across different levels: most of it at ground level (+0.00 m), and several pieces of equipment and instruments on elevated platforms (between +1.50 m and +8.00 m) that require access stairs and perimeter railings. This must be reflected in both the P&ID (elevations/notes) and the 3D model (access structure).
 
 ### General Design Conditions
+</div>
 
 <div class="compact-list">
 
@@ -362,7 +410,13 @@ The facility is organized into six interconnected subsystems, which are also con
 | Operating regime Continuous | 24 h / 350 days-year |
 
 </div>
-</div>
+
+<style>
+.compact-list{
+  font-size:0.7em;
+  line-height:0.05;
+}
+</style>
 
 ---
 title: "Equipment Organization & Scope"
@@ -379,13 +433,20 @@ The plant is divided into 6 subsystems. Each pair of students develops the P&ID,
 | **Subsystem** | **Key Elements** |
 | --- | --- |
 | Raw Water Intake and Pumping | Intake tank, pumps, self-cleaning filter |
-| Cooling Water | Cooling tower, pumps, heat exchanger, surge tank (platform +4.00 m) |
-| Steam Generation (Boiler Room) | Condensate tank, pumps, deaerator (platform +3.50 m), boiler |
+| Cooling Water | Cooling tower, pumps, heat exchanger, surge tank (platform) |
+| Steam Generation (Boiler Room) | Condensate tank, pumps, deaerator (platform), boiler |
 | Compressed Air | Compressors, dryer, surge tanks (skid +1.50 m) |
 | Chemical Dosing | Reagent tanks, dosing pumps, static mixer |
-| Fire Protection System and Main Supply | Reserve tank, pumps (main/jockey/diesel), manifold (platform +4.00 m) |
+| Fire Protection System and Main Supply | Reserve tank, pumps (main/jockey/diesel), manifold (platform) |
 
 </div>
+
+<style>
+.compact-list{
+  font-size:0.7em;
+  line-height:0.05;
+}
+</style>
 
 ---
 title: "Equipment Organization & Scope"
@@ -411,7 +472,6 @@ transition: fade-out
 
 <div class="download-card">
   <h4>PDF File</h4>
-  <p>Student Pack.</p>
   <a href="/data/StudentPack.pdf">
     📕 Download Data Package
   </a>
@@ -423,5 +483,16 @@ layout: center
 transition: fade-out
 ---
 
-<img src="/data/layout-general.jpg" alt="Layout" style="width:620px" />
+<v-clicks>
+<img src="/data/layout-general.jpg" alt="Layout" />
+</v-clicks>
 
+---
+title: "General view of the targeted thing (tentative)"
+layout: center
+transition: fade-out
+---
+
+<v-clicks>
+<img src="/data/render-planta.jpg" alt="Layout" />
+</v-clicks>

@@ -1,42 +1,42 @@
 <script setup>
 const scholar = {
-  citations: 17249,
-  hindex: 43,
-  i10index: 107,
+  citations: 17401,
+  hindex: 44,
+  i10index: 108,
 }
 
 const publications = [
   {
     year: 2019,
-    number: 1446
+    number: 1452
   },
   {
     year: 2020,
-    number: 1596
+    number: 1602
   },
   {
     year: 2021,
-    number: 1714
+    number: 1716
   },
   {
     year: 2022,
-    number: 1868
+    number: 1877
   },
   {
     year: 2023,
-    number: 1826
+    number: 1834
   },
   {
     year: 2024,
-    number: 1890
+    number: 1896
   },
   {
     year: 2025,
-    number: 1900
+    number: 1902
   },
   {
     year: 2026,
-    number: 1202
+    number: 1329
   }
 ]
 </script>
@@ -44,7 +44,7 @@ const publications = [
 <template>
   <div class="page">
     <section class="bio">
-      <div class="card">
+      <div v-click="1" class="card">
         <ul>
           <li>
             <strong>Professor</strong> of Project Engineering and Management
@@ -72,15 +72,15 @@ const publications = [
             <strong>Supervisor</strong> of more than 30 PhD theses.
           </li>
           <li>
-            <strong>Consultant</strong> for over 10 years. <it>Interest 
+            <strong>Consultant</strong> for over 10 years. <i>Interest 
               in improving industrial processes using data-driven models,
               process optimization, business analytics, big data analytics 
-              and project management</it> => <strong style="color:red;">Industrial Management</strong>.
+              and project management</i> => <strong style="color:red;">Industrial Management</strong>.
           </li>
         </ul>
       </div>
 
-      <div class="research-card">
+      <div v-click="2" class="research-card">
         <h3>Research Focus</h3>
         <div class="venn">
           <div class="circle left">
@@ -107,7 +107,7 @@ const publications = [
         </a>
       </div>
 
-      <div class="pub-card">
+      <div v-click="3" class="pub-card">
         <div class="scholar-header">
           <span>Cited by </span>
           <span>(GScholar)</span>
@@ -123,24 +123,24 @@ const publications = [
           <tbody>
             <tr>
               <td>Citations</td>
-              <td>17249</td>
-              <td>10404</td>
+              <td>17430</td>
+              <td>10558</td>
             </tr>
             <tr>
               <td>h-index</td>
-              <td>43</td>
+              <td>44</td>
               <td>34</td>
             </tr>
             <tr>
               <td>i10-index</td>
-              <td>107</td>
-              <td>73</td>
+              <td>108</td>
+              <td>74</td>
             </tr>
           </tbody>
         </table>
       </div>
 
-      <div class="chart-card">
+      <div v-click="4" class="chart-card">
         <div class="chart-container">
           <div class="y-axis">
             <span>2000</span>
@@ -183,7 +183,8 @@ const publications = [
   display:grid;
   grid-template-columns: 75% 25%;
   gap:10px;
-  height:100%;
+  height:auto;
+  align-items:start;
   background:white;
 }
 
