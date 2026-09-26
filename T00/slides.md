@@ -472,7 +472,7 @@ transition: fade-out
 
 <div class="download-card">
   <h4>PDF File</h4>
-  <a href="/data/StudentPack.pdf">
+  <a href="/~jordieres/DPA/data/StudentPack.pdf">
     📕 Download Data Package
   </a>
 </div>

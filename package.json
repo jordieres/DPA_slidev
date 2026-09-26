@@ -7,14 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "ini": "slidev INI/slides.md",
     "t00": "slidev T00/slides.md",
+    "p00": "slidev P00/slides.md",
     "t01": "slidev T01/slides.md",
     "t02": "slidev T02/slides.md",
     "t03": "slidev T03/slides.md",
+    "t04": "slidev T04/slides.md",
     "build:ini": "slidev build INI/slides.md --base /~jordieres/DPA/INI --out /home/jordieres/public_html/DPA/INI",
     "build:t00": "slidev build T00/slides.md --base /~jordieres/DPA/T00 --out /home/jordieres/public_html/DPA/T00",
+    "build:p00": "slidev build P00/slides.md --base /~jordieres/DPA/P00 --out /home/jordieres/public_html/DPA/P00",
     "build:t01": "slidev build T01/slides.md --base /~jordieres/DPA/T01 --out /home/jordieres/public_html/DPA/T01",
     "build:t02": "slidev build T02/slides.md --base /~jordieres/DPA/T02 --out /home/jordieres/public_html/DPA/T02",
-    "build:t03": "slidev build T03/slides.md --base /~jordieres/DPA/T03 --out /home/jordieres/public_html/DPA/T03"
+    "build:t03": "slidev build T03/slides.md --base /~jordieres/DPA/T03 --out /home/jordieres/public_html/DPA/T03",
+    "build:t04": "slidev build T04/slides.md --base /~jordieres/DPA/T04 --out /home/jordieres/public_html/DPA/T04"
   },
   "devDependencies": {
     "@slidev/cli": "^52.18.1",
