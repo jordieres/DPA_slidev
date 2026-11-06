@@ -1,0 +1,22 @@
+/* T06b — global styles (Slidev loads ./style.css for every slide) */
+.slidev-layout,
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3 { color: #102a43; }
+.slidev-layout h2 { font-size: 1.35rem; margin-bottom: .25rem; }
+.discussion-list { font-size: .92em; line-height: 1.2; }
+.discussion-list li { margin-bottom: .30rem; }
+.discussion-list.compact { font-size: .84em; line-height: 1.16; }
+.discussion-list.compact li { margin-bottom: .22rem; }
+.discussion-list p { margin: 0; }
+.discussion-panel { padding: .5rem .8rem; border-radius: 10px; background: rgba(255,255,255,.80); }
+.discussion-panel.info { border-left: 5px solid #2196f3; }
+.discussion-panel.warning { border-left: 5px solid #f59e0b; }
+.discussion-panel.success { border-left: 5px solid #22a06b; }
+.scene-meta { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: .2rem 0 .45rem; }
+.scene-meta div { padding: .28rem .4rem; border-radius: 10px; background: #e8f4fb; text-align: center; font-size: .66rem; line-height: 1.1; }
+.scene-meta b { display: block; font-size: .85rem; color: #0077aa; }
+.timing table { width: 100%; }
+.timing td, .timing th { padding: .22rem .5rem !important; font-size: 1.02rem !important; line-height: 1.25; }
+.source-note { font-size: 10px !important; line-height: 1.12; color: #5f6b73; margin-top: .4rem; }
+.discussion-panel { font-size: .95rem; }
